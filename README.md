@@ -5,4 +5,6 @@ In the resources/config.py set the folders for images, videos, etc., Put your Re
 
 Also need Youtube Data api from the Google console with the upload scope
 
+For the background videos you would need to put more I put 28 and make sure the name of the videos are numbers (1, 2, 3, 4, etc.)
+
 ### Example channel https://www.youtube.com/channel/UCoADlcmOU7tgKUFKfvO_ypQ
