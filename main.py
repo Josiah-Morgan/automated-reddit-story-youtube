@@ -250,7 +250,7 @@ def get_comments(subreddit):
                 return make_video(post.title, comments_chunks)
             try:
                 comments_count += 1
-                comment_text = f"{index + 1}. {comment.body}"
+                comment_text = f"{index + 1}. {comment.body} "
                 comments_chunks += remove_emojis(comment_text)
             except Exception as e:
                 print(e)
