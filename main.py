@@ -8,7 +8,6 @@ import time
 from reddit_image import generate_title
 from resources.config import (
     amount_of_comments,
-    amount_of_post,
     audio_folder,
     background_video_folder,
     client_id,
@@ -230,7 +229,7 @@ def get_comments(subreddit):
     )
 
     subreddit = reddit.subreddit(subreddit)
-    posts = subreddit.hot(limit=amount_of_post)
+    posts = subreddit.hot(limit=1)
     comments_count = 0
     comments_chunks = ""
     for post in posts:
